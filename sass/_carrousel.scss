@@ -1,0 +1,28 @@
+/*carrousel*/
+.d-item{
+    height: 950px;
+}
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.info{ 
+    font-size: 40px;
+    margin-top: 400px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.boton{
+    background-color:rgb(61, 63, 62);
+    border: solid 1px gold;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.boton:hover{
+    background-color: white;
+    border: solid 1px darkgoldenrod;
+    color: darkgoldenrod;
+}

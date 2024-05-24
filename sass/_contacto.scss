@@ -1,0 +1,47 @@
+/*CONTACTO*/
+#contacto1{
+    text-align: center;
+    margin: 100px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contacto{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+.formulario{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 40px;
+   
+}
+
+.formulario .button{
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 1px goldenrod;
+    background-color: peachpuff;
+    color: black;
+}
+
+.formulario .text{
+    min-height: 150px;
+    max-width: 500px;
+    max-height: 250px;
+    border: solid 1px goldenrod;
+    border-radius: 5px;
+}
+
+.formulario .inputs{
+    border: solid 1px goldenrod;
+    border-radius: 5px;
+}
+
+.ubicacion{
+    margin: 0px 100px;
+}

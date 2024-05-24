@@ -1,0 +1,370 @@
+@charset "UTF-8";
+.header-principal {
+  background-color: rgb(70, 17, 17);
+  height: 160px;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 2px palegoldenrod;
+}
+
+.container {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo {
+  display: flex;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titulo img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav a:hover {
+  color: palegoldenrod;
+  transition: 0.4s;
+}
+
+.linea {
+  background-color: rgb(255, 255, 255);
+  padding: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*carrousel*/
+.d-item {
+  height: 950px;
+}
+
+.d-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.info {
+  font-size: 40px;
+  margin-top: 400px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.boton {
+  background-color: rgb(61, 63, 62);
+  border: solid 1px gold;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.boton:hover {
+  background-color: white;
+  border: solid 1px darkgoldenrod;
+  color: darkgoldenrod;
+}
+
+/*CONTACTO*/
+#contacto1 {
+  text-align: center;
+  margin: 100px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#contacto {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulario {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 40px;
+}
+
+.formulario .button {
+  width: 70px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: solid 1px goldenrod;
+  background-color: peachpuff;
+  color: black;
+}
+
+.formulario .text {
+  min-height: 150px;
+  max-width: 500px;
+  max-height: 250px;
+  border: solid 1px goldenrod;
+  border-radius: 5px;
+}
+
+.formulario .inputs {
+  border: solid 1px goldenrod;
+  border-radius: 5px;
+}
+
+.ubicacion {
+  margin: 0px 100px;
+}
+
+.footer {
+  margin-top: 500px;
+}
+
+.footer-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(70, 17, 17);
+}
+
+.footer-info {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  padding: 80px 0;
+}
+
+.footer-enlaces {
+  padding: 80px 0;
+}
+
+.footer-enlaces a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.footer-enlaces ul {
+  list-style: none;
+}
+
+.footer-img {
+  margin: auto 0;
+}
+.footer-img img {
+  width: 100px;
+  height: 100px;
+}
+
+/*ïnformacion importancia*/
+.info-2 {
+  margin: 150px 100px;
+  padding: 200px;
+  filter: opacity(1);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./img/logo1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-2 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.img-info-2 {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+/*informacion escuela*/
+.titulo-info {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 100px;
+  font-size: 30px;
+}
+
+.informacion {
+  width: 100%;
+}
+
+.informacion-1 {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  border-right: solid 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
+}
+
+.informacion-1 p {
+  margin: 0 50px 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.informacion-1 img {
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.informacion-2 {
+  display: flex;
+  margin: 200px auto;
+  width: 80%;
+  border-left: solid 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
+}
+
+.informacion-2 p {
+  margin: 0 20px 0 50px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.informacion-2 img {
+  width: 500px;
+  height: 500px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+.header-secundario {
+  background-color: rgb(70, 17, 17);
+  height: 160px;
+  position: sticky;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 2px palegoldenrod;
+}
+
+.container {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo h2 {
+  display: flex;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0 0 0 8px;
+}
+
+.titulo img {
+  width: 100px;
+  height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav a:hover {
+  color: palegoldenrod;
+  transition: 0.4s;
+}
+
+.linea {
+  background-color: rgb(255, 255, 255);
+  padding: 2px;
+}
+
+#actividades {
+  left: 46%;
+  position: absolute;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 70px;
+  text-decoration: overline;
+}
+
+.cartas {
+  background-color: rgb(70, 17, 17);
+  padding: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.carta {
+  margin: auto;
+  width: 380px;
+  height: 550px;
+  background-color: white;
+  border-radius: 20px;
+  border: solid 2px gold;
+}
+.carta img {
+  width: 100%;
+  height: 270px;
+  border-radius: 20px 20px 0 0;
+}
+
+.pie {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+}
+.pie h2 {
+  font-size: 23px;
+}
+.pie p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.carta button {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: gold;
+  border: solid 2px darkgoldenrod;
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+.carta button:hover {
+  background-color: white;
+  color: darkgoldenrod;
+  border: solid 2px darkgoldenrod;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */

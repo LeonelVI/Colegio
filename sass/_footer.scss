@@ -1,0 +1,41 @@
+
+.footer{
+    margin-top: 500px;
+}
+.footer-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(70, 17, 17);
+}
+
+.footer-info{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding:80px 0 ;
+}
+
+.footer-enlaces{
+    padding:80px 0 ;
+}
+
+.footer-enlaces a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+}
+.footer-enlaces ul{
+    list-style: none;
+}
+
+.footer-img{
+    margin: auto 0;
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
