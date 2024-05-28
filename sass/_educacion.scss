@@ -1,0 +1,73 @@
+.educacion-titulo{
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0 0;
+}
+
+.nuestra-edu{
+    width: 100%;
+}
+
+.principios{
+    width: 70%;
+    margin: 150px auto 0;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: solid 2px goldenrod;
+    border-bottom: solid 2px goldenrod;
+    
+        h2{
+            margin: 0 0 20px 20px;
+        }
+        p{
+          font-size: 20px;
+          text-align: justify;
+          margin: 0 0 20px 20px;
+        }
+}
+
+.objetivos{
+    width: 70%;
+    margin: 100px auto 0;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: solid 2px goldenrod ;
+    border-bottom: solid 2px goldenrod;
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+            text-align: justify;
+            margin: 0 20px 20px 0;
+        }
+}
+
+.proyectos{
+    width: 70%;
+    margin: 100px auto 0;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: solid 2px goldenrod ;
+    border-bottom: solid 2px goldenrod;
+        h2{
+           margin: 0 0 20px 20px;
+        }
+        p{
+            font-size: 20px;
+            text-align: justify;
+            margin: 0 0 20px 20px;
+        }
+}
+
+.competencia{
+    width: 70%;
+    margin: 100px auto 0;
+    border-right: solid 2px goldenrod ;
+    border-bottom: solid 2px goldenrod;
+        h2{
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 20px;
+            margin: 0 20px 20px 0;
+        }
+}

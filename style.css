@@ -16,6 +16,7 @@
 }
 
 .titulo {
+  letter-spacing: 2px;
   display: flex;
   color: rgb(255, 255, 255);
   justify-content: center;
@@ -30,6 +31,7 @@
 }
 
 nav a {
+  letter-spacing: 3px;
   text-decoration: none;
   color: white;
   margin: 30px;
@@ -275,6 +277,7 @@ body {
 }
 
 .titulo h2 {
+  letter-spacing: 2px;
   display: flex;
   color: rgb(255, 255, 255);
   justify-content: center;
@@ -291,6 +294,7 @@ body {
 }
 
 nav a {
+  letter-spacing: 3px;
   text-decoration: none;
   color: white;
   margin: 30px;
@@ -320,15 +324,17 @@ nav a:hover {
 
 .cartas {
   background-color: rgb(70, 17, 17);
-  padding: 200px;
-  width: 100%;
+  padding: 100px;
+  width: 80%;
+  margin: auto;
   display: flex;
+  border-radius: 50px;
 }
 
 .carta {
-  margin: auto;
-  width: 380px;
-  height: 550px;
+  margin: 30px;
+  width: 100%;
+  height: 600px;
   background-color: white;
   border-radius: 20px;
   border: solid 2px gold;
@@ -367,4 +373,76 @@ nav a:hover {
   color: darkgoldenrod;
   border: solid 2px darkgoldenrod;
   transition: 0.5s;
+}
+
+.educacion-titulo {
+  text-align: center;
+  font-size: 25px;
+  margin: 50px 0 0;
+}
+
+.nuestra-edu {
+  width: 100%;
+}
+
+.principios {
+  width: 70%;
+  margin: 150px auto 0;
+  font-family: "Times New Roman", Times, serif;
+  border-left: solid 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
+}
+.principios h2 {
+  margin: 0 0 20px 20px;
+}
+.principios p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 0 0 20px 20px;
+}
+
+.objetivos {
+  width: 70%;
+  margin: 100px auto 0;
+  font-family: "Times New Roman", Times, serif;
+  border-right: solid 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
+}
+.objetivos h2 {
+  margin-bottom: 20px;
+}
+.objetivos p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 0 20px 20px 0;
+}
+
+.proyectos {
+  width: 70%;
+  margin: 100px auto 0;
+  font-family: "Times New Roman", Times, serif;
+  border-left: solid 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
+}
+.proyectos h2 {
+  margin: 0 0 20px 20px;
+}
+.proyectos p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 0 0 20px 20px;
+}
+
+.competencia {
+  width: 70%;
+  margin: 100px auto 0;
+  border-right: solid 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
+}
+.competencia h2 {
+  margin-bottom: 20px;
+}
+.competencia p {
+  font-size: 20px;
+  margin: 0 20px 20px 0;
 }/*# sourceMappingURL=style.css.map */
